@@ -1,4 +1,4 @@
-# VisuAlign issue tracker
+# Issue tracker
 This repository collects issues/requests for software related to visual alignment:
 * QuickNII
 * LocaliZoom
