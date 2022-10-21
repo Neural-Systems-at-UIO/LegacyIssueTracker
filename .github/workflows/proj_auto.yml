@@ -16,9 +16,3 @@ jobs:
           project-url: https://github.com/orgs/Neural-Systems-at-UIO/projects/2
           github-token: ${{ secrets.ORG_KEY }}
 
-      - uses: kalgurn/update-project-item-status@main
-        with:
-          project-url: https://github.com/orgs/Neural-Systems-at-UIO/projects/2
-          github-token: ${{ secrets.ORG_KEY }}
-          item-id: ${{ steps.addItem.outputs.itemId }}
-          status: "To Do"
